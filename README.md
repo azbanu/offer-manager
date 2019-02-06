@@ -14,7 +14,6 @@ Expiry date is in ISO Date Time format (2019-03-25T00:00:00.000) </br>
 All domain fields are mandatory </br>
 No i18n support </br>
 Scheduler can run every 10 seconds without impacting performance.   </br> 
-Offers that expire in between scheduled runs will be captured and set at service layer </br>
 Format in JSON only </br></br>
 
 <strong>End points</strong></br>
