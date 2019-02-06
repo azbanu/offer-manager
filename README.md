@@ -13,9 +13,9 @@ Mockito</br></br>
 Expiry date is in ISO Date Time format (2019-03-25T00:00:00.000) </br>
 All domain fields are mandatory </br>
 No i18n support </br>
-Schedule will run every 10 seconds without impacting performance.   </br> 
-Offers that expire in between scheduler run will be captured and set at service layer but will not be saved until the next scheduler run </br>
-format in JSON </br></br>
+Scheduler can run every 10 seconds without impacting performance.   </br> 
+Offers that expire in between scheduled run will be captured and set at service layer but will not be saved until the next time the scheduler runs</br>
+format in JSON only </br></br>
 
 <strong>End points</strong></br>
 Service entry point  at http://localhost:8080/api/offer </br>
