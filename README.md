@@ -1,24 +1,24 @@
-<strong>Offer Management Rest Service</strong></br></br>
-This web service allows offer to be managed via REST 
+<strong>Offer Management Rest Service</strong>
+This web service allows offer to be managed via REST </br></br>
 
-<strong>Technology Stack</strong></br></br>
+<strong>Technology Stack</strong>
 Spring Boot</br>
 Embeded H2 </br>
 Spring MVC Framework</br>
 Maven</br>
 Jersey</br>
-Mockito</br>
+Mockito</br></br>
 
-<strong>Assumptions</strong></br></br>
+<strong>Assumptions</strong></br>
 Expiry date is in ISO Date Time format (2019-03-25T00:00:00.000) </br>
 All domain fields are mandatory </br>
 No i18n support </br>
 Schedule will run every 10 seconds without impacting performance.   </br> 
 Offers that expire in between scheduler run will be captured and set at service layer but will not be saved until the next scheduler run </br>
-format in JSON </br>
+format in JSON </br></br>
 
-<strong>End points</strong></br></br>
-Service entry point  at http://localhost:8080/api/offer </br></br>
+<strong>End points</strong>
+Service entry point  at http://localhost:8080/api/offer </br>
 Request to list all offers: GET  http://localhost:8080/api/offer/list </br>
 Respond with all available offers </br></br>
  
@@ -42,7 +42,7 @@ Respond with the cancelled offer </br></br>
 Request to get offer by id: GET http://localhost:8080/api/offer/{id} </br>
 Respond with the offer</br></br>
 
-<strong>Build and Run</strong></br></br>
+<strong>Build and Run</strong>
 Java 8 and Maven 3.3.9</br>
 Git clone https://github.com/azbanu/offer-manager.git </br>
 cd to offer-manager </br>
