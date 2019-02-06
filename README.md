@@ -1,7 +1,7 @@
 <strong>Offer Management Rest Service</strong>
 This web service allows offer to be managed via REST </br></br>
 
-<strong>Technology Stack</strong>
+<strong>Technology Stack</strong></br>
 Spring Boot</br>
 Embeded H2 </br>
 Spring MVC Framework</br>
@@ -17,7 +17,7 @@ Schedule will run every 10 seconds without impacting performance.   </br>
 Offers that expire in between scheduler run will be captured and set at service layer but will not be saved until the next scheduler run </br>
 format in JSON </br></br>
 
-<strong>End points</strong>
+<strong>End points</strong></br>
 Service entry point  at http://localhost:8080/api/offer </br>
 Request to list all offers: GET  http://localhost:8080/api/offer/list </br>
 Respond with all available offers </br></br>
@@ -42,7 +42,7 @@ Respond with the cancelled offer </br></br>
 Request to get offer by id: GET http://localhost:8080/api/offer/{id} </br>
 Respond with the offer</br></br>
 
-<strong>Build and Run</strong>
+<strong>Build and Run</strong></br>
 Java 8 and Maven 3.3.9</br>
 Git clone https://github.com/azbanu/offer-manager.git </br>
 cd to offer-manager </br>
