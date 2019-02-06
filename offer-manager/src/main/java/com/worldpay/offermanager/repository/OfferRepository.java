@@ -23,7 +23,7 @@ public interface OfferRepository extends JpaRepository<Offer, Long> {
 
     @org.springframework.transaction.annotation.Transactional(propagation=Propagation.REQUIRES_NEW)
     @Modifying
-    @Query("update Offer set status = 'EXPIRED' where expiryDate < :expiryDate and STATUS = 'ACTIVE'")
+    @Query("update Offer set status = 'EXPIRED' where expiryDate <= :expiryDate and STATUS = 'ACTIVE'")
     int updateExpiryStatus(@Param("expiryDate") LocalDateTime expiryDate);
 
 
