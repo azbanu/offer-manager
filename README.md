@@ -20,10 +20,10 @@ format in JSON </br>
 <strong>End points</strong></br></br>
 Service entry point  at http://localhost:8080/api/offer </br></br>
 Request to list all offers: GET  http://localhost:8080/api/offer/list </br>
-Response with all available offers </br></br>
+Respond with all available offers </br></br>
  
 Request to list offers with given description: GET http://localhost:8080/api/offer/list/?description=description </br>
-Response with all offers matching description</br></br>
+Respond with all offers matching description</br></br>
  
 Request to add offer: POST http://localhost:8080/api/offer/ using JSON payload </br>
 Respond with the created offer </br>
@@ -37,10 +37,10 @@ Respond with the created offer </br>
 </br></br>
   
 Request to cancel offer: PUT http://localhost:8080/api/offer/cancel/{id} </br>
-Response with the cancelled offer </br></br>
+Respond with the cancelled offer </br></br>
   
 Request to get offer by id: GET http://localhost:8080/api/offer/{id} </br>
-Response with the offer</br></br>
+Respond with the offer</br></br>
 
 <strong>Build and Run</strong></br></br>
 Java 8 and Maven 3.3.9</br>
