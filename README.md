@@ -4,7 +4,7 @@ This web service allows offers to be managed via REST </br></br>
 <strong>Technology Stack</strong></br>
 Spring Boot</br>
 Embeded H2 </br>
-Spring MVC Framework</br>
+Spring</br>
 Maven</br>
 Jersey</br>
 Mockito</br></br>
