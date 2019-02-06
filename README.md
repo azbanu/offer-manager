@@ -1,4 +1,4 @@
-<strong>Offer Management Rest Service</strong>
+<strong>Offer Management Rest Service</strong></br>
 This web service allows offer to be managed via REST </br></br>
 
 <strong>Technology Stack</strong></br>
