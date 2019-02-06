@@ -1,5 +1,5 @@
 <strong>Offer Management Rest Service</strong></br>
-This web service allows offer to be managed via REST </br></br>
+This web service allows offers to be managed via REST </br></br>
 
 <strong>Technology Stack</strong></br>
 Spring Boot</br>
